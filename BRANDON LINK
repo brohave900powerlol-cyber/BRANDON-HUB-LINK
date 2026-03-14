@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BRANDON HUB 🔪</title>
+    <style>
+        :root {
+            --glow: #00d4ff;
+            --dark: #02050a;
+            --card-bg: rgba(10, 20, 40, 0.7);
+        }
+
+        body {
+            background-color: var(--dark);
+            background-image: 
+                radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+                radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px);
+            background-size: 550px 550px, 350px 350px;
+            color: white;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        .live-counter {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid var(--glow);
+            padding: 10px 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .header {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            background: linear-gradient(to bottom, #fff, var(--glow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 15px rgba(0, 212, 255, 0.5));
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            padding-bottom: 100px;
+        }
+
+        .script-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(0, 212, 255, 0.1);
+            border-radius: 20px;
+            padding: 25px;
+            position: relative;
+            transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .script-card::before {
+            content: '';
+            position: absolute;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: conic-gradient(transparent, var(--glow), transparent 30%);
+            animation: rotate 4s linear infinite;
+            opacity: 0.15;
+            z-index: -1;
+        }
+
+        @keyframes rotate { 100% { transform: rotate(360deg); } }
+
+        .script-card:hover {
+            transform: scale(1.05);
+            border-color: var(--glow);
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+        }
+
+        .tag {
+            background: rgba(0, 212, 255, 0.2);
+            color: var(--glow);
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: inline-block;
+            border: 1px solid var(--glow);
+        }
+
+        h2 { margin: 10px 0; font-size: 1.5rem; color: #fff; }
+
+        .copy-btn {
+            width: 100%;
+            margin-top: 20px;
+            background: var(--glow);
+            color: var(--dark);
+            border: none;
+            padding: 15px;
+            border-radius: 12px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .copy-btn:hover {
+            background: #fff;
+            box-shadow: 0 0 20px #fff;
+        }
+
+        .discord-bar {
+            position: fixed;
+            bottom: 30px;
+            background: rgba(88, 101, 242, 0.9);
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+<div class="live-counter">
+    <img src="https://hitwebcounter.com/counter/counter.php?page=BRANDONHUB_KNIFE&style=0005&nbdigits=5&type=page&initCount=0" border="0" />
+    <span style="font-size: 0.8rem; opacity: 0.7;">REAL VISITORS</span>
+</div>
+
+<div class="header">
+    <h1>BRANDON HUB 🔪</h1>
+    <p style="color: var(--glow); opacity: 0.8;">Premium Script Execution</p>
+</div>
+
+<div class="container">
+    <div class="script-card">
+        <div class="tag">MAIN</div>
+        <h2>BHUB Main (V2)</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BHUB/refs/heads/main/main.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">FREE</div>
+        <h2>Speed Boost Hub</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/kkfdwslaoo3r3167676mason/refs/heads/main/main.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">COMBAT</div>
+        <h2>Xmasoowke</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/xmasoowke/main/main.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">HUB</div>
+        <h2>BHUB Script</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BHUB/main/script.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">REFS</div>
+        <h2>BHUB Refs Main</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BHUB/refs/heads/main/Main.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">OFFICIAL</div>
+        <h2>BRANDON-HUB</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BRANDON-HUB/refs/heads/main/script.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">NEW</div>
+        <h2>Auto Grab</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BHUB/main/autograb.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">BYPASS</div>
+        <h2>No Sell / No Truck</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BHUB/main/nosell.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">OP</div>
+        <h2>God Mode</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BHUB/main/godmode.lua\'))()')">COPY 🔪</button>
+    </div>
+
+    <div class="script-card">
+        <div class="tag">VISUAL</div>
+        <h2>Universal ESP</h2>
+        <button class="copy-btn" onclick="cp('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/brohave900powerlol-cyber/BHUB/main/esp.lua\'))()')">COPY 🔪</button>
+    </div>
+</div>
+
+<a href="https://discord.gg/CeTUrMVTWV" class="discord-bar">JOIN BRANDON HUB DISCORD</a>
+
+<script>
+    function cp(t) {
+        navigator.clipboard.writeText(t);
+        const n = document.createElement('div');
+        n.innerText = "Script Copied! 🔪";
+        n.style.cssText = "position:fixed;top:20px;right:20px;background:var(--glow);color:black;padding:15px;border-radius:10px;font-weight:bold;z-index:2000;";
+        document.body.appendChild(n);
+        setTimeout(() => n.remove(), 2000);
+    }
+</script>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
+
